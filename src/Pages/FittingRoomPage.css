@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap');
+
+.ContentDiv {
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+    display: grid;
+    grid-template: 300px / auto auto auto auto;
+    grid-auto-rows: 300px;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+

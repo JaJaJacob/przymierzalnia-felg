@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap');
+
+.MakeAppointmentForm {
+    margin-top: 50px;
+    height: 500px;
+    text-align: center;
+    font-family: 'Bai Jamjuree';
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+input[type=text]::-webkit-outer-spin-button,
+input[type=text]::-webkit-inner-spin-button{
+      -webkit-appearance: none;
+      margin: 0;
+  }
+  
+  input[type=text] {
+      -moz-appearance: textfield;
+    }
+
+input[type=email]::-webkit-outer-spin-button,
+input[type=email]::-webkit-inner-spin-button{
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    
+input[type=email] {
+        -moz-appearance: textfield;
+      }
+
+select{
+    font-family: 'Bai Jamjuree';
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    width: 300px;
+    border: 3px solid #5E4131;
+    cursor:pointer;
+}
+
+.AppointmentDate {
+    color: white;
+}
+
+input[type=text]
+{
+    font-family: 'Bai Jamjuree';
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    width: 300px;
+    border: 3px solid #5E4131;
+}
+
+input[type=date]
+{
+    font-family: 'Bai Jamjuree';
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    width: 300px;
+    border: 3px solid #5E4131;
+}
+
+input[type=email]
+{
+    font-family: 'Bai Jamjuree';
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    width: 300px;
+    border: 3px solid #5E4131;
+}
+
+input[type=submit] {
+    font-family: 'Bai Jamjuree';
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+    background-color: white;
+    width: 300px;
+    padding: 5px;
+    border: 0;
+}
+
+input[type=submit]:hover {
+    color: white;
+    background-color: #5E4131;
+    cursor:pointer;
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500&display=swap');
+
+.NavigationBarStrip {
+  width: 100%;
+  height: 154px;
+  background-color: red;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  opacity: 0.5;
+}
+
+.MainPage {
+    margin-top: 25px;
+    float: right;
+    margin-right: 52%;
+    color: white;
+}
+.CarCloackroom {
+    margin-top: 25px;
+    float: right;
+    margin-right: -18%;
+    color: white;
+}
+.Catalog {
+    margin-top: 25px;
+    float: right;
+    margin-right: -29%;
+    color: white;
+}
+.MakeAppointment {
+    margin-top: 25px;
+    float: right;
+    margin-right: -41%;
+    color: white;
+}
+.DeleteAppointment {
+    margin-top: 25px;
+    float: right;
+    margin-right: -54%;
+    color: white;
+}
+

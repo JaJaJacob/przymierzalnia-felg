@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap');
+
+.MainDiv {
+    width: 100%;
+    height: 1000px;
+}
+
+label[for=StartPageLabel] {
+    width: 905px;
+    position: absolute;
+    top: 40%; right: 50%;
+    transform: translate(50%,-50%);
+    color: white;
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 64px;
+    text-align: center;
+}
+
+label[for=StartPageDescription] {
+    width: 905px;
+    position: absolute;
+    top: 58%; right: 50%;
+    transform: translate(50%,-50%);
+    padding: 0;
+    color: white;
+    font-family: 'Bai Jamjuree';
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+    

@@ -1,0 +1,166 @@
+.AlloyDiv
+  {
+    border: 5px solid #5E4131;
+    height: 300px;
+    width: 300px;
+  }
+
+ .AlloyDivHidden {
+    color: white;
+    height: 305px;
+    width: 305px;
+    background-color: black;
+    display: none;
+ } 
+
+ .AlloyDivWrapper {
+  width: auto;
+  display: inline-block;
+}
+
+.AlloyDivWrapper:hover .AlloyDiv {
+  display: none;
+}
+
+.AlloyDivWrapper:hover .AlloyDivHidden {
+  text-align:center;
+  vertical-align:middle; 
+  display:table-cell;
+  word-break: break-all;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 5px solid black;
+}
+
+.PhotoPlaceholder {
+  width: 300px;
+  height: 180px;
+}
+
+.photo{
+  width: 300px;
+  height: 180px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.AlloysLabelsPlaceholders {
+  width: 300px;
+  height: 120px;
+  background-color: black;
+}
+
+.AlloyManufacturerPlaceholder {
+  width: 300px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+label[for=AlloyManufacturerLabel]{
+  font-family: 'Bai Jamjuree';
+  font-size: 36px;
+  font-weight: 400;
+  padding-left: 5%;
+}
+
+label[for=CatalogNumberLabel]{
+  font-family: 'Bai Jamjuree';
+  font-size: 14px;
+  font-weight: 400;
+}
+
+label[for=CatalogNumberLabel]:hover{
+  font-family: 'Bai Jamjuree';
+  font-size: 24px;
+  font-weight: 400;
+}
+
+label[for=SizeLabel]{
+  font-family: 'Bai Jamjuree';
+  font-size: 14px;
+  font-weight: 400;
+}
+
+label[for=SizeLabel]:hover{
+  font-family: 'Bai Jamjuree';
+  font-size: 24px;
+  font-weight: 400;
+}
+
+label[for=WidthLabel]{
+  font-family: 'Bai Jamjuree';
+  font-size: 14px;
+  font-weight: 400;
+}
+
+label[for=WidthLabel]:hover{
+  font-family: 'Bai Jamjuree';
+  font-size: 24px;
+  font-weight: 400;
+}
+
+label[for=ColorLabel]{
+  font-family: 'Bai Jamjuree';
+  font-size: 14px;
+  font-weight: 400;
+}
+
+label[for=ColorLabel]:hover{
+  font-family: 'Bai Jamjuree';
+  font-size: 24px;
+  font-weight: 400;
+}
+
+label[for=ETLabel]{
+  font-family: 'Bai Jamjuree';
+  font-size: 14px;
+  font-weight: 400;
+}
+
+label[for=ETLabel]:hover{
+  font-family: 'Bai Jamjuree';
+  font-size: 24px;
+  font-weight: 400;
+}
+
+label[for=BPLabel]{
+  font-family: 'Bai Jamjuree';
+  font-size: 14px;
+  font-weight: 400;
+}
+
+label[for=BPLabel]:hover{
+  font-family: 'Bai Jamjuree';
+  font-size: 24px;
+  font-weight: 400;
+}
+
+label[for=CBLabel]{
+  font-family: 'Bai Jamjuree';
+  font-size: 14px;
+  font-weight: 400;
+}
+
+label[for=CBLabel]:hover{
+  font-family: 'Bai Jamjuree';
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.AlloyModelPlaceholder {
+  width: 300px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+label[for=AlloyModelLabel]{
+  font-family: 'Bai Jamjuree';
+  font-size: 36px;
+  font-weight: 400;
+  padding-left: 5%;
+}
+  
+  

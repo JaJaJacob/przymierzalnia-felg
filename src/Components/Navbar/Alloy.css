@@ -1,0 +1,55 @@
+.AlloyDiv
+  {
+    border: 5px solid #5E4131;
+    height: 300px;
+    width: 300px;
+  }
+
+.PhotoPlaceholder {
+  width: 300px;
+  height: 180px;
+}
+
+.photo{
+  width: 300px;
+  height: 180px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.AlloysLabelsPlaceholders {
+  width: 300px;
+  height: 120px;
+  background-color: black;
+}
+
+.AlloyManufacturerPlaceholder {
+  width: 300px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+label[for=AlloyManufacturerLabel]{
+  font-family: 'Bai Jamjuree';
+  font-size: 36px;
+  font-weight: 400;
+  padding-left: 5%;
+}
+
+.AlloyModelPlaceholder {
+  width: 300px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+label[for=AlloyModelLabel]{
+  font-family: 'Bai Jamjuree';
+  font-size: 36px;
+  font-weight: 400;
+  padding-left: 5%;
+}
+  
+  

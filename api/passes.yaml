@@ -1,0 +1,9 @@
+postgresql_server: 'ella.db.elephantsql.com'
+postgresql_user: 'tubzvpvc'
+postgresql_password: '3Ymo-5YOlHdq4Mk_uSwNXTh-bjbzJQnH'
+mail_server: 'smtp.gmail.com'
+mail_port: 465
+mail_username: 'jdesignofficial2@gmail.com'
+mail_password: 'sjzpzlpiwufqkjix'
+mail_TLS: False
+mail_SSL: True

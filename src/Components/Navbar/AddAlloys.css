@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap');
+
+.AddAlloyForm {
+    width: 100%;
+    margin-top: 00px;
+}
+
+.LabelDiv {
+    width: 100%;
+    height: 140px;
+}
+
+.AlloySelectionComponent {
+    width: 100%;
+    height: 350px;
+}
+
+.ManufacturerModelDiv {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ManufacturerDiv {
+    width: 34%;
+    height: 100px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ModelDiv {
+    float: left;
+    width: 33%;
+    height: 100px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CatalogNumberDiv {
+    float: left;
+    width: 33%;
+    height: 100px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.OtherDivs1 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SizesDiv {
+    float: left;
+    width: 34%;
+    height: 100px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WidthDiv {
+    float: left;
+    width: 33%;
+    height: 100px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ColorsDiv {
+    float: left;
+    width: 33%;
+    height: 100px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.OtherDivs2 {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ETSDiv {
+    float: left;
+    width: 25%;
+    height: 100px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BPSDiv {
+    float: left;
+    width: 25%;
+    height: 100px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CBSDiv {
+    float: left;
+    width: 25%;
+    height: 100px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PhotoDiv {
+    float: left;
+    width: 25%;
+    height: 100px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SubmitDiv {
+    float: left;
+    width: 100%;
+    height: 120px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    font-family: 'Bai Jamjuree';
+    font-size: 36px;
+    font-weight: 400;
+    color: white;
+}
+
+select{
+    font-family: 'Bai Jamjuree';
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    width: 300px;
+    border: 3px solid #5E4131;
+    cursor:pointer;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+input[type=number]
+{
+    font-family: 'Bai Jamjuree';
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    width: 300px;
+    border: 3px solid #5E4131;
+}
+
+input[type=submit] {
+    font-family: 'Bai Jamjuree';
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+    background-color: white;
+    width: 300px;
+    padding: 5px;
+    border: 0;
+}
+
+input[type=submit]:hover {
+    color: white;
+    background-color: #5E4131;
+    cursor:pointer;
+}
